@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body{
+	background-image:url('background.jpg');
+	background-size: cover;
+	font-family: tahoma;
+	background-color: black;
+	color:white;
+	padding-left:40px;
+}
+.hh{
+	font-size:30px;
+	font-family:roboto condensed;
+	position:absolute;
+}
+.head{
+	font-family: calibri;
+	font-size:50px;
+	text-decoration:underline;
+}
+.topnav-right li{
+  float: right;
+  font-size: 12px;
+  list-style-type:none;
+  position:relative;
+}
+.topnav-right a{
+	color: white;
+	padding:10px;
+	text-decoration:none;
+}
+.count li{
+	display: inline-block;
+	font-size: 1.5em;
+	list-style-type: none;
+	padding: 1em;
+}
+.count{
+	text-align: center;
+	position:relative;
+}
+.count li span {
+  display: block;
+  font-size: 4.5rem;
+}
+.all{
+	font-size: 20px;
+	font-family:roboto condensed;
+}
+a{
+	color: white;
+	text-decoration:none;
+	font-size: 12px;
+}
+.foot{
+	position:absolute;
+	bottom:10px;
+	right:40%;
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+	color:white;
+}
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+	color:white;
+}
+.talk{
+	padding: 10px 28px;
+	border: 1px solid white;
+	background-color: Transparent;
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-radius: 4px;
+}
+.talk1{
+	padding: 10px 28px;
+	position: absolute;
+	bottom:100px;
+	right:600px;
+	border: 1px solid white;
+	background-color: Transparent;
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-radius: 4px;
+}
+.submit{
+	padding: 8px 8px;
+	border: 1px solid white;
+	background-color: Transparent;
+	text-align: center;
+	color:white;
+	font-size: 16px;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-radius: 4px;
+}
+.form-container {
+  width:400px;
+  height:500px;
+  padding: 10px;
+  background-image:url('background.jpg');
+  border-radius: 4px;
+}
+.form-container1 {
+  width:400px;
+  height:500px;
+  padding: 10px;
+  background-image:url('background.jpg');
+  border-radius: 4px;
+}
+#myForm{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+#myForm{
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  display:none;
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 4px;
+  width: 30%;
+  position: relative;
+  transition: 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+#myForm1{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+#myForm1 {
+  visibility: visible;
+  opacity: 1;
+}
+.popup1 {
+  display:none;
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 4px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup1 .close1 {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+ .hello{
+	color:blue;
+	font-size:45px;
+	font-family:calibri;
+	text-align: justify;
+	padding-left:20px;
+ }
+ .content{
+	font-family:calibri;
+	font-size:16px;
+	text-align: justify;
+	padding-left:20px;
+ }
+ .thank{
+	color:white;
+	font-size:45px;
+	font-family:calibri;
+	text-align: center;
+ }
+ .content1{
+	font-family:calibri;
+	font-size:16px;
+	text-align: center;
+	padding-left:20px;
+ }
+ .soon{
+	color:white;
+	font-size:70px;
+	font-family: calibri;
+	text-align: center;
+ }
